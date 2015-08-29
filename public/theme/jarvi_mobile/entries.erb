@@ -13,6 +13,7 @@
     <%= post.body %>
   </div>
   <div class="footer">
+    <%= partial 'sns', locals: { entry: post } %>
 
 <% if logged_in? %>
     <p><a href="<%= url(post.edit_link) %>"><%= t('edit') %></a></p>
