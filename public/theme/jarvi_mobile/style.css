@@ -408,6 +408,7 @@ background: linear-gradient(top, #374978 0%,#2e406d 100%); /* W3C */
 #main .section .body li {
 	line-height: 1.4;
 	margin-bottom: 0.8em;
+	word-break: break-all;
 }
 #main .section .body a:link,
 #main .section .body a:visited {
@@ -423,6 +424,7 @@ background: linear-gradient(top, #374978 0%,#2e406d 100%); /* W3C */
 	display: block;
 	padding: 12px;
 	color: #0F0;
+	overflow: scroll;
 }
 #main .section .body .object {
 	text-align: center;

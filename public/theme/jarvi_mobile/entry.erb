@@ -9,6 +9,7 @@
   </div>
   <div class="body">
     <%= @entry.body %>
+    <%= partial 'sns', locals: { entry: @entry } %>
   </div>
 <% if logged_in? %>
     <p><a href="<%= url(@entry.edit_link) %>"><%= t('edit') %></a></p>

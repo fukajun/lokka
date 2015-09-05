@@ -49,6 +49,7 @@ blockquote {
  }
 
  a img, fieldset, img {
+ width: 100%;
  border:0;
  }
 
@@ -408,6 +409,7 @@ color: #ec189a;
 #main .section .body li {
 	line-height: 1.4;
 	margin-bottom: 0.8em;
+	word-break: break-all;
 }
 #main .section .body a:link,
 #main .section .body a:visited {
@@ -423,6 +425,7 @@ color: #ec189a;
 	display: block;
 	padding: 12px;
 	color: #0F0;
+	overflow: scroll;
 }
 #main .section .body .object {
 	text-align: center;
